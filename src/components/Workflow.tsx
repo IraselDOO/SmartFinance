@@ -18,12 +18,16 @@ export default function Workflow({ t }: WorkflowProps) {
               className={`sf-workflow__step sf-workflow__step--${index + 1}`}
               key={step.number}
             >
-              <div className="sf-workflow__visual">
-                <WorkflowVisual kind={index} />
+              <div className="sf-workflow__header">
+                <div className="sf-workflow__visual">
+                  <WorkflowVisual kind={index} />
+                </div>
+                <div className="sf-workflow__title-group">
+                  <div className="sf-workflow__number">{step.number}</div>
+                  <h3>{step.title}</h3>
+                </div>
               </div>
-              <div className="sf-workflow__number">{step.number}</div>
-              <h3>{step.title}</h3>
-              <ul>
+              <ul className="sf-workflow__list">
                 {step.items.map((item) => (
                   <li key={item}>{item}</li>
                 ))}

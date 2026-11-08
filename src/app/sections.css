@@ -314,6 +314,12 @@
   z-index: 1;
   min-width: 0;
 }
+.sf-workflow__header {
+  display: contents;
+}
+.sf-workflow__title-group {
+  display: contents;
+}
 .sf-workflow__visual {
   display: grid;
   place-items: center;
@@ -348,7 +354,8 @@
   line-height: 1.14;
   letter-spacing: -0.035em;
 }
-.sf-workflow__step > ul {
+.sf-workflow__step > ul,
+.sf-workflow__list {
   display: grid;
   gap: clamp(6px, 1svh, 9px);
   min-width: 0;
@@ -361,12 +368,14 @@
   overflow-wrap: anywhere;
   hyphens: auto;
 }
-.sf-workflow__step > ul li {
+.sf-workflow__step > ul li,
+.sf-workflow__list li {
   position: relative;
   min-width: 0;
   padding-left: 15px;
 }
-.sf-workflow__step > ul li::before {
+.sf-workflow__step > ul li::before,
+.sf-workflow__list li::before {
   position: absolute;
   top: 0.52em;
   left: 0;
@@ -998,28 +1007,50 @@
     display: none;
   }
   .sf-workflow__step {
-    display: grid;
-    grid-template-columns: minmax(130px, 0.52fr) minmax(0, 1fr);
-    grid-template-rows: auto auto 1fr;
-    column-gap: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .sf-workflow__header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
   }
   .sf-workflow__visual {
-    grid-row: 1 / 4;
-    height: 155px;
+    flex: 0 0 76px;
+    height: 70px;
     margin-bottom: 0;
+  }
+  .sf-workflow__visual svg {
+    width: 76px;
+    height: 70px;
   }
   .sf-workflow__step--2 .sf-workflow__visual {
     transform: none;
   }
+  .sf-workflow__title-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    min-width: 0;
+  }
   .sf-workflow__number {
-    align-self: start;
-    justify-self: start;
+    font-size: 18px;
+    padding: 3px 8px;
   }
   .sf-workflow__step h3 {
-    margin-top: 8px;
+    margin: 0;
+    max-width: none;
+    font-size: clamp(17px, 4.4vw, 20px);
+    line-height: 1.2;
   }
-  .sf-workflow__step > ul {
-    grid-column: 2;
+  .sf-workflow__list {
+    width: 100%;
+    gap: 8px;
+  }
+  .sf-workflow__list li {
+    font-size: 14.5px;
   }
 }
 
