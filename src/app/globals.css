@@ -338,8 +338,8 @@
   display: inline !important;
   background: var(--office-gold);
   color: var(--office-ink);
-  padding: 0.1em 0.34em 0.14em;
-  font-size: clamp(17px, min(1.8vw, 2.9svh), 28px);
+  padding: 0.12em 0.38em 0.16em;
+  font-size: clamp(20px, min(2.15vw, 3.5svh), 32px);
   font-weight: 700;
   line-height: 1.4;
   letter-spacing: -0.04em;
