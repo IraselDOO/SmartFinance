@@ -245,12 +245,12 @@
   display: none;
 }
 
-/* Unified 1-screen Hero + Bottom Metrics Bar */
+/* Unified Hero with resilient flex layout */
 .office-hero {
-  display: grid;
-  grid-template-rows: minmax(0, 1fr) auto;
+  display: flex;
+  flex-direction: column;
   height: calc(100svh - var(--office-header-h));
-  min-height: 540px;
+  min-height: 580px;
   background: #ffffff;
   color: var(--office-ink);
 }
@@ -259,8 +259,9 @@
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  display: grid;
+  display: flex;
   align-items: center;
+  flex: 1 1 0;
   min-height: 0;
   background: #f3f5f4;
 }
@@ -276,7 +277,7 @@
   position: absolute;
   inset: auto 0 0;
   width: 100%;
-  height: 112.9652%;
+  height: 100%;
   max-width: none;
   object-fit: cover;
   object-position: right bottom;
@@ -302,13 +303,13 @@
 
 .office-hero__content {
   position: relative;
-  padding-block: clamp(20px, 3.2svh, 48px);
+  padding-block: clamp(14px, 2svh, 32px);
 }
 
 .office-hero__eyebrow {
-  margin-bottom: clamp(10px, 1.8svh, 20px);
+  margin-bottom: clamp(8px, 1.2svh, 16px);
   color: #4a535a;
-  font-size: clamp(11px, min(0.82vw, 1.5svh), 13px);
+  font-size: clamp(11px, min(0.82vw, 1.4svh), 13px);
   font-weight: 600;
   line-height: 1.35;
   letter-spacing: 0.15em;
@@ -317,11 +318,11 @@
 
 .office-hero__title {
   width: 100%;
-  margin: 0 0 clamp(14px, 2.2svh, 24px);
-  font-size: clamp(36px, min(5.4vw, 8.6svh), 82px);
+  margin: 0 0 clamp(10px, 1.6svh, 20px);
+  font-size: clamp(34px, min(4.8vw, 7.6svh), 76px);
   font-weight: 800;
-  line-height: 1.01;
-  letter-spacing: -0.065em;
+  line-height: 1.02;
+  letter-spacing: -0.06em;
 }
 
 .office-hero__title > span {
@@ -329,7 +330,7 @@
 }
 
 .office-hero__title > span:nth-child(2) {
-  margin-bottom: clamp(12px, 1.8svh, 20px);
+  margin-bottom: clamp(10px, 1.5svh, 18px);
 }
 
 .office-hero__accent {
@@ -337,7 +338,7 @@
   background: var(--office-gold);
   color: var(--office-ink);
   padding: 0.1em 0.34em 0.14em;
-  font-size: clamp(18px, min(1.95vw, 3.3svh), 31px);
+  font-size: clamp(17px, min(1.8vw, 2.9svh), 28px);
   font-weight: 700;
   line-height: 1.4;
   letter-spacing: -0.04em;
@@ -346,21 +347,21 @@
 }
 
 .office-hero__description {
-  max-width: 31rem;
-  margin: 0 0 clamp(16px, 2.5svh, 28px);
+  max-width: 32rem;
+  margin: 0 0 clamp(14px, 2svh, 24px);
   color: #303b43;
-  font-size: clamp(14px, min(1.2vw, 2.1svh), 19px);
-  line-height: 1.5;
-  letter-spacing: -0.02em;
+  font-size: clamp(13.5px, min(1.1vw, 1.8svh), 18px);
+  line-height: 1.48;
+  letter-spacing: -0.015em;
 }
 
 .office-hero__action {
   max-width: 100%;
-  min-height: clamp(46px, 6.2svh, 56px);
-  padding-inline: clamp(20px, 1.9vw, 30px);
-  padding-block: clamp(10px, 1.4svh, 15px);
-  gap: 18px;
-  font-size: clamp(14px, min(1.05vw, 1.9svh), 17px);
+  min-height: clamp(44px, 5.4svh, 54px);
+  padding-inline: clamp(18px, 1.7vw, 28px);
+  padding-block: clamp(9px, 1.2svh, 14px);
+  gap: 16px;
+  font-size: clamp(13.5px, min(1vw, 1.8svh), 16px);
   letter-spacing: -0.02em;
 }
 
