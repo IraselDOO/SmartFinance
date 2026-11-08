@@ -19,10 +19,11 @@
 
 /* Integrated bottom metrics strip inside Hero */
 .sf-trust {
-  padding-block: clamp(14px, 2svh, 24px);
+  padding-block: clamp(10px, 1.4svh, 18px);
   border-top: 1px solid #e8e9e8;
   border-bottom: 1px solid #e8e9e8;
   background: #fff;
+  flex-shrink: 0;
 }
 .sf-trust__grid {
   display: grid;
@@ -51,11 +52,11 @@
   align-items: center;
   justify-content: center;
   flex: 0 0 auto;
-  min-width: clamp(42px, 3.2vw, 52px);
-  padding: 6px 11px;
+  min-width: clamp(38px, 2.8vw, 48px);
+  padding: 5px 9px;
   background: var(--office-gold);
   color: var(--office-ink);
-  font-size: clamp(20px, min(1.9vw, 3.2svh), 30px);
+  font-size: clamp(18px, min(1.6vw, 2.6svh), 26px);
   font-weight: 800;
   line-height: 1;
   letter-spacing: -0.04em;
