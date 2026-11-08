@@ -22,9 +22,10 @@ export default function WorkflowVisual({ kind }: WorkflowVisualProps) {
           <path d="M185 29v40h40" stroke="#DDE1E1" />
           <rect x="96" y="45" width="52" height="10" fill="#F9A307" />
           <path d="M96 88h89M96 104h104M96 120h80" stroke="#AAB1B3" strokeWidth="4" strokeLinecap="square" />
-          <path d="M96 143h56" stroke="#C40020" strokeWidth="4" strokeLinecap="square" />
+          <path d="M96 143h56" stroke="#07111A" strokeWidth="4" strokeLinecap="square" />
           <rect x="170" y="112" width="75" height="45" fill="#FFF" stroke="#DDE1E1" />
-          <path d="M184 126h44M184 137h28" stroke="#AAB1B3" strokeWidth="3" strokeLinecap="square" />
+          <rect x="170" y="112" width="75" height="8" fill="#F9A307" />
+          <path d="M184 130h44M184 141h28" stroke="#AAB1B3" strokeWidth="3" strokeLinecap="square" />
         </g>
       )}
       {kind === 1 && (
@@ -46,11 +47,11 @@ export default function WorkflowVisual({ kind }: WorkflowVisualProps) {
         <g filter={`url(#${id}-shadow)`}>
           <path d="M80 26h122l39 38v98H80z" fill={`url(#${id}-paper)`} stroke="#DDE1E1" />
           <path d="M202 26v39h39" stroke="#DDE1E1" />
-          <rect x="104" y="45" width="60" height="10" fill="#F9A307" />
+          <rect x="104" y="45" width="60" height="10" fill="#07111A" />
           <path d="M104 84h104" stroke="#AAB1B3" strokeWidth="4" strokeLinecap="square" />
           <path d="M104 100h78M104 116h46" stroke="#AAB1B3" strokeWidth="4" strokeLinecap="square" />
-          <rect x="158" y="106" width="79" height="52" fill="#C40020" />
-          <path d="m177 131 12 11 28-31" stroke="white" strokeWidth="5" strokeLinecap="square" strokeLinejoin="miter" />
+          <rect x="158" y="106" width="79" height="52" fill="#F9A307" stroke="#07111A" strokeWidth="2" />
+          <path d="m177 131 12 11 28-31" stroke="#07111A" strokeWidth="5" strokeLinecap="square" strokeLinejoin="miter" />
         </g>
       )}
     </svg>

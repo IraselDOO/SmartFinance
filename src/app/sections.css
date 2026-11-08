@@ -113,7 +113,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: clamp(20px, min(2.4vw, 3svh), 34px);
-  background: #0a141e;
+  background: #07111a;
   color: white;
 }
 .sf-service-main__copy {
@@ -159,7 +159,7 @@
   z-index: 1;
   inset: 0;
   pointer-events: none;
-  background: linear-gradient(180deg, #0a141e 0%, transparent 14%);
+  background: linear-gradient(180deg, #07111a 0%, transparent 18%);
   content: "";
 }
 
@@ -243,8 +243,9 @@
 .sf-service__icon {
   width: clamp(22px, 2.8svh, 26px);
   height: clamp(22px, 2.8svh, 26px);
-  color: var(--office-red);
+  color: var(--office-ink);
   stroke-width: 1.5;
+  transition: color 180ms ease;
 }
 .sf-service__arrow {
   width: 19px;
@@ -252,8 +253,11 @@
   color: #9aa3a9;
   transition: color 180ms ease, transform 180ms ease;
 }
+.sf-service--interactive:hover .sf-service__icon {
+  color: var(--office-gold);
+}
 .sf-service--interactive:hover .sf-service__arrow {
-  color: var(--office-red);
+  color: var(--office-ink);
   transform: translate(2px, -2px);
 }
 .sf-service h3 {
@@ -263,9 +267,6 @@
   line-height: 1.15;
   letter-spacing: -0.03em;
   transition: color 180ms ease;
-}
-.sf-service--interactive:hover h3 {
-  color: var(--office-red);
 }
 .sf-service p {
   margin: 0;
@@ -305,7 +306,7 @@
   right: 9%;
   left: 9%;
   height: 1px;
-  background: linear-gradient(90deg, #d8ddde 0%, var(--office-red) 50%, #d8ddde 100%);
+  background: linear-gradient(90deg, #d8ddde 0%, var(--office-gold) 50%, #d8ddde 100%);
   content: "";
 }
 .sf-workflow__step {
@@ -328,15 +329,18 @@
   transform: translateY(-6px) scale(1.05);
 }
 .sf-workflow__number {
-  color: var(--office-red);
-  font-size: clamp(28px, min(3vw, 4.8svh), 44px);
+  display: inline-block;
+  padding: 5px 11px;
+  background: var(--office-gold);
+  color: var(--office-ink);
+  font-size: clamp(20px, min(2vw, 3.4svh), 30px);
   line-height: 1;
   letter-spacing: -0.04em;
-  font-weight: 600;
+  font-weight: 800;
 }
 .sf-workflow__step h3 {
-  max-width: 20ch;
-  margin: clamp(6px, 1svh, 10px) 0 clamp(10px, 1.6svh, 15px);
+  max-width: 22ch;
+  margin: clamp(10px, 1.4svh, 14px) 0 clamp(10px, 1.6svh, 15px);
   color: #07111a;
   font-size: clamp(18px, min(1.75vw, 2.8svh), 25px);
   line-height: 1.14;
@@ -362,12 +366,11 @@
 }
 .sf-workflow__step > ul li::before {
   position: absolute;
-  top: 0.55em;
+  top: 0.52em;
   left: 0;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--office-red);
+  width: 6px;
+  height: 6px;
+  background: var(--office-gold);
   content: "";
 }
 
@@ -827,8 +830,8 @@
   transition: border-color 160ms ease, color 160ms ease;
 }
 .sf-modal__close:hover {
-  border-color: var(--office-red);
-  color: var(--office-red);
+  border-color: var(--office-ink);
+  color: var(--office-ink);
 }
 .sf-modal__close svg {
   width: 18px;
@@ -901,7 +904,7 @@
 .sf-modal__success-icon {
   width: 34px;
   height: 34px;
-  color: var(--office-red);
+  color: var(--office-gold);
   margin-bottom: 12px;
 }
 .sf-modal__success h4 {
@@ -995,7 +998,7 @@
     left: 23px;
     width: 1px;
     height: auto;
-    background: linear-gradient(#d8ddde, var(--office-red), #d8ddde);
+    background: linear-gradient(#d8ddde, var(--office-gold), #d8ddde);
   }
   .sf-workflow__step {
     display: grid;

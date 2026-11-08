@@ -168,7 +168,7 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
       titleLine2: "бизнесом.",
       accent: "Бухгалтерию доверьте нам.",
       description:
-        "Прозрачный учёт, налоги и отчётность - берём на себя бухгалтерию вашего бизнеса в Черногории.",
+        "Прозрачный учёт, налоги и отчётность - берём на себя полное бухгалтерское сопровождение вашего бизнеса в Черногории.",
       cta: "Узнать стоимость",
     },
     trustAria: "Ключевые показатели",
@@ -197,42 +197,42 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
     servicesSection: {
       heading: "Наши услуги",
       mainCta: "Обсудить сопровождение",
-      mainImageAlt: "Бухгалтерские документы и рабочие инструменты на тёмном фоне",
+      mainImageAlt: "Рабочее место бухгалтера с системой учёта Черногории и документами",
       cardAriaSuffix: "обсудить услугу",
       items: [
         {
           id: "accounting",
           title: "Бухгалтерское обслуживание",
           description:
-            "Ведение учёта, расчёт налогов и зарплат, сдача отчётности и постоянное бухгалтерское сопровождение.",
+            "Полное ведение учёта DOO и Preduzetnik: ежемесячные декларации PDV, расчёт зарплат и налогов (IOPPD), кадровый учёт в CROO, электронная фискализация и сдача годового баланса (Završni račun).",
           icon: "FileSpreadsheet",
         },
         {
           id: "registration",
           title: "Регистрация бизнеса",
           description:
-            "Подготовка полного пакета документов для открытия компании (DOO) или предпринимателя (Preduzetnik) в Черногории.",
+            "Открытие компании (DOO) или ИП (Preduzetnik) под ключ: уставные документы, регистрация в CRPS, постановка на PDV, подключение eFiskalizacija и сопровождение при открытии счёта в банке.",
           icon: "Briefcase",
         },
         {
           id: "consulting",
           title: "Налоговые консультации",
           description:
-            "Разъяснение налоговых требований, анализ договоров и оптимальные законные решения по налоговой нагрузке.",
+            "Расчёт налоговой нагрузки до старта проекта, разбор ставок PDV (21% / 7% / 0%), налога на прибыль и дивиденды, проверка договоров и законная оптимизация платежей.",
           icon: "Percent",
         },
         {
           id: "recovery",
           title: "Восстановление учёта",
           description:
-            "Аудит, исправление ошибок и полное восстановление бухгалтерских данных за предыдущие отчётные периоды.",
+            "Сверка расчётов с Poreska uprava, аудит прошлых периодов, исправление ошибок в декларациях IOPPD и PDV, восстановление первичной документации и сдача просроченной отчётности.",
           icon: "FileText",
         },
         {
           id: "additional",
-          title: "Дополнительные услуги",
+          title: "Сопровождение и разрешения",
           description:
-            "Консультации по вопросам ведения бизнеса, взаимодействие с госорганами, банками и получение разрешений.",
+            "Подготовка документов для ВНЖ (Boravak) по бизнесу, регистрация объектов в муниципалитете и туристической организации, получение лицензий и представление интересов в госорганах.",
           icon: "MessageSquareMore",
         },
       ],
@@ -242,35 +242,35 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
       steps: [
         {
           number: "01",
-          title: "Вы передаёте документы",
+          title: "Вы передаёте первичку",
           items: [
-            "Счета и договоры",
+            "Входящие и исходящие инвойсы",
             "Банковские выписки",
-            "Чеки и инвойсы",
-            "Данные по зарплатам",
-            "Другие документы по запросу",
+            "Фискальные чеки и договоры",
+            "Данные по сотрудникам и зарплатам",
+            "Лично в офисе или онлайн в мессенджере",
           ],
         },
         {
           number: "02",
-          title: "Мы ведём бухгалтерию",
+          title: "Мы ведём учёт и налоги",
           items: [
-            "Учитываем финансовые операции",
-            "Рассчитываем налоги и зарплаты сотрудников",
-            "Сдаём регламентированную отчётность",
-            "Взаимодействуем с налоговыми органами",
-            "Оперативно консультируем по текущим вопросам",
+            "Проводим операции в главной книге",
+            "Формируем и сдаём отчёты PDV и IOPPD",
+            "Контролируем электронную фискализацию",
+            "Отвечаем на запросы Poreska uprava",
+            "Заранее напоминаем о сроках уплаты налогов",
           ],
         },
         {
           number: "03",
-          title: "Вы получаете результат",
+          title: "Вы работаете спокойно",
           items: [
-            "Своевременная отчётность без задержек",
-            "Полная ясность по суммам налогов",
-            "Понятные и прозрачные отчёты",
-            "Рекомендации по оптимизации расходов",
-            "Поддержка и спокойствие в любых ситуациях",
+            "Отчётность сдана вовремя без пеней и штрафов",
+            "Заранее понятны точные суммы всех налогов",
+            "Готов годовой баланс (Završni račun)",
+            "Порядок в кадровых документах и договорах",
+            "Прямая связь с вашим бухгалтером в рабочее время",
           ],
         },
       ],
@@ -279,8 +279,8 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
       title: "Ваш надёжный партнёр в Черногории",
       photoAlt: "Интерьер офиса Smart Finance в Ульцине",
       paragraphs: [
-        "SMART FINANCE - бухгалтерская компания в Ульцине с 7-летним опытом работы и командой из 7 сертифицированных бухгалтеров. Мы сопровождаем как новые, так и действующие компании (DOO) и индивидуальных предпринимателей (Preduzetnik), работаем с местным бизнесом и иностранными основателями в Черногории.",
-        "Берём на себя фискализацию, электронную отчётность, расчёт налогов, зарплат и взносов в пенсионный фонд. Объясняем требования законодательства Черногории на понятном языке, ведём документацию и консультируем на черногорском, албанском и английском языках и гарантируем полную конфиденциальность коммерческих данных.",
+        "SMART FINANCE - профессиональная бухгалтерская компания со стационарным офисом в центре Ульциня (Bulevar Majke Tereze). Мы сопровождаем как новые, так и действующие компании (DOO) и предпринимателей (Preduzetnik), работаем с местным бизнесом и иностранными учредителями по всему побережью и территории Черногории.",
+        "За каждой компанией закрепляется профильный сертифицированный бухгалтер, который знает специфику вашей отрасли - от сезонного туризма и HoReCa до строительства и IT. Мы берём на себя все коммуникации с налоговой инспекцией (Poreska uprava), муниципалитетом и банками, гарантируя точность расчётов и полную конфиденциальность.",
       ],
     },
     industriesSection: {
@@ -289,35 +289,35 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
         {
           title: "Рестораны и кафе",
           description:
-            "Бухгалтерский учёт в HoReCa, фискализация касс, налоги, расчёт смен и зарплат персонала.",
+            "Бухгалтерский учёт в HoReCa, калькуляции и техкарты, фискализация касс, учёт сезонного персонала и зарплат.",
           image: "/images/industry-restaurant-v2.jpg",
           tag: "HoReCa",
         },
         {
           title: "Апартаменты и туризм",
           description:
-            "Ведение учёта аренды, сезонные особенности туризма, туристические сборы и отчётность.",
+            "Учёт краткосрочной и долгосрочной аренды, туристические сборы (Boravišna taksa), сезонная отчётность и кассы.",
           image: "/images/industry-tourism-v3.png",
           tag: "Туризм & Аренда",
         },
         {
           title: "Строительство",
           description:
-            "Учёт строительных проектов, НДС (PDV), договоры субподряда и материальный учёт.",
+            "Учёт строительных объектов и смет, возврат и зачёт НДС (PDV), договоры генподряда и субподряда, материальный учёт.",
           image: "/images/industry-construction-v2.png",
           tag: "Девелопмент",
         },
         {
           title: "Торговля",
           description:
-            "Бухгалтерский учёт розничных и оптовых магазинов, складской учёт и налоговые обязательства.",
+            "Оптовая и розничная торговля, импорт и таможенные декларации, складской товарный учёт (Kalkulacije) и PDV.",
           image: "/images/industry-retail-v3.png",
           tag: "Ритейл",
         },
         {
           title: "Малый и средний бизнес",
           description:
-            "Комплексная поддержка IT-специалистов, сервисных компаний и международных предпринимателей.",
+            "Сопровождение IT-компаний, консалтинговых и сервисных агентств, валютные инвойсы и работа с международными контрагентами.",
           image: "/images/industry-business-v2.jpg",
           tag: "IT & Услуги",
         },
@@ -326,7 +326,7 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
     contactSection: {
       heading: "Оставьте заявку",
       description:
-        "Расскажите нам о вашем бизнесе. Мы свяжемся с вами, ответим на вопросы и предложим решение.",
+        "Расскажите нам о вашем бизнесе. Мы свяжемся с вами, рассчитаем стоимость сопровождения и ответим на вопросы.",
       nameLabel: "Ваше имя",
       namePlaceholder: "Константин",
       contactLabel: "Телефон / WhatsApp / Telegram",
@@ -346,9 +346,9 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
       mainServiceTitle: "Обсудить бухгалтерское сопровождение",
       serviceTitlePrefix: "Заявка:",
       costSubtitle:
-        "Укажите сферу бизнеса и контакты - мы подготовим расчёт под вашу задачу.",
+        "Стоимость зависит от формы (DOO / Preduzetnik), статуса PDV и числа сотрудников. Оставьте контакт - мы подготовим точный расчёт.",
       serviceSubtitle:
-        "Оставьте контакты - мы свяжемся с вами, ответим на вопросы и предложим решение.",
+        "Оставьте контакты - мы свяжемся с вами, ответим на вопросы и предложим решение под вашу задачу.",
       costSubmit: "Получить расчёт стоимости",
       serviceSubmit: "Отправить заявку",
       submitting: "Отправка...",
@@ -360,15 +360,15 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
       contactPlaceholder: "+382 ... или @username",
       serviceLabel: "Интересующая услуга",
       generalConsultation: "Общая консультация",
-      messageLabel: "Комментарий или вопрос (опционально)",
-      messagePlaceholder: "Форма бизнеса (DOO / Preduzetnik), сфера деятельности...",
+      messageLabel: "Параметры бизнеса (опционально)",
+      messagePlaceholder: "DOO или Preduzetnik, плательщик PDV да/нет, количество сотрудников...",
       successTitle: "Заявка успешно отправлена",
       successText:
         "Мы свяжемся с вами в ближайшее время. Вы также можете написать нам напрямую в мессенджер:",
       defaultError: "Ошибка отправки. Пожалуйста, напишите нам в WhatsApp.",
     },
     footer: {
-      location: "Ulcinj - Ulqin, Montenegro",
+      location: "Bulevar Majke Tereze BB, Ulcinj, Montenegro",
       rights: "Все права защищены.",
     },
     contacts: {
@@ -431,42 +431,42 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
     servicesSection: {
       heading: "Naše usluge",
       mainCta: "Zakažite konsultaciju",
-      mainImageAlt: "Računovodstvena dokumentacija i poslovni alati na tamnoj podlozi",
+      mainImageAlt: "Radni sto računovođe sa računovodstvenim programom i dokumentacijom",
       cardAriaSuffix: "zatražite ponudu",
       items: [
         {
           id: "accounting",
           title: "Računovodstvene usluge",
           description:
-            "Vođenje poslovnih knjiga, obračun poreza i zarada, predaja izvještaja i stalna računovodstvena podrška.",
+            "Kompletno vođenje poslovnih knjiga za DOO i preduzetnike: mjesečne PDV prijave, obračun zarada (IOPPD), prijava radnika u CROO, eFiskalizacija i izrada završnog računa.",
           icon: "FileSpreadsheet",
         },
         {
           id: "registration",
           title: "Registracija firme",
           description:
-            "Priprema kompletne dokumentacije za osnivanje društva (DOO) ili preduzetnika u Crnoj Gori.",
+            "Priprema kompletne dokumentacije za osnivanje društva (DOO) ili preduzetnika u CRPS-u, PDV registracija, povezivanje na eFiskalizaciju i podrška pri otvaranju računa u banci.",
           icon: "Briefcase",
         },
         {
           id: "consulting",
           title: "Poresko savjetovanje",
           description:
-            "Tumačenje poreskih propisa, analiza ugovora i optimalna zakonska rješenja za poresko opterećenje.",
+            "Procjena poreskog opterećenja prije pokretanja posla, primjena stopa PDV-a (21% / 7% / 0%), porez na dobit i dividendu, analiza ugovora i zakonska optimizacija poreza.",
           icon: "Percent",
         },
         {
           id: "recovery",
           title: "Sređivanje knjigovodstva",
           description:
-            "Kontrola, ispravka grešaka i kompletna rekonstrukcija računovodstvenih podataka za prethodne periode.",
+            "Usaglašavanje kartica sa Poreskom upravom, kontrola prethodnih perioda, ispravka grešaka u IOPPD i PDV prijavama i kompletna rekonstrukcija poslovnih knjiga.",
           icon: "FileText",
         },
         {
           id: "additional",
-          title: "Dodatne poslovne usluge",
+          title: "Poslovna podrška i dozvole",
           description:
-            "Savjetovanje u poslovanju, komunikacija sa državnim organima, bankama i pribavljanje dozvola.",
+            "Priprema dokumentacije za radne i boravišne dozvole, prijava objekata u opštini i turističkoj organizaciji, pribavljanje rješenja za rad i zastupanje pred organima.",
           icon: "MessageSquareMore",
         },
       ],
@@ -478,33 +478,33 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
           number: "01",
           title: "Dostavljate dokumentaciju",
           items: [
-            "Računi i ugovori",
+            "Ulazne i izlazne fakture",
             "Bankovni izvodi",
-            "Fiskalni računi i fakture",
-            "Podaci o zaradama",
-            "Ostala dokumenta po potrebi",
+            "Fiskalni računi i ugovori",
+            "Podaci o zaposlenima i zaradama",
+            "Lično u kancelariji ili elektronski",
           ],
         },
         {
           number: "02",
           title: "Mi vodimo računovodstvo",
           items: [
-            "Knjižimo sve poslovne promjene",
-            "Obračunavamo poreze i zarade zaposlenih",
-            "Predajemo zakonom propisane prijave i izvještaje",
+            "Knjižimo sve promjene u glavnoj knjizi",
+            "Podnosimo mjesečne PDV i IOPPD prijave",
+            "Pratimo ispravnost eFiskalizacije",
             "Komuniciramo sa Poreskom upravom",
-            "Brzo vas savjetujemo o svim tekućim pitanjima",
+            "Na vrijeme vas obavještavamo o obavezama",
           ],
         },
         {
           number: "03",
-          title: "Dobijate siguran rezultat",
+          title: "Poslujete bez brige",
           items: [
-            "Uredni izvještaji bez kašnjenja",
-            "Potpuna jasnoća o iznosima poreza",
-            "Pregledni i razumljivi finansijski izvještaji",
-            "Preporuke za optimizaciju troškova",
-            "Podrška i sigurnost u svakoj situaciji",
+            "Sve prijave predate u zakonskom roku",
+            "Potpuna jasnoća o iznosima poreza i PDV-a",
+            "Uredno pripremljen završni račun",
+            "Usklađena kadrovska evidencija i ugovori",
+            "Stalna podrška vašeg računovođe",
           ],
         },
       ],
@@ -513,8 +513,8 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
       title: "Vaš pouzdan partner u Crnoj Gori",
       photoAlt: "Enterijer kancelarije Smart Finance u Ulcinju",
       paragraphs: [
-        "SMART FINANCE je računovodstvena agencija u Ulcinju sa 7 godina iskustva i timom od 7 sertifikovanih računovođa. Pružamo podršku novim i postojećim kompanijama (DOO) i preduzetnicima, sarađujući sa domaćim privrednicima i stranim osnivačima u Crnoj Gori.",
-        "Preuzimamo fiskalizaciju, elektronsko izvještavanje, obračun PDV-a, poreza, zarada i doprinosa. Propise objašnjavamo jasno i razumljivo na crnogorskom, albanskom i engleskom jeziku, uz potpunu povjerljivost poslovnih podataka.",
+        "SMART FINANCE je profesionalna računovodstvena agencija sa kancelarijom u centru Ulcinja (Bulevar Majke Tereze BB). Pružamo podršku novim i postojećim kompanijama (DOO) i preduzetnicima, sarađujući sa domaćim privrednicima i stranim osnivačima širom crnogorskog primorja i Crne Gore.",
+        "Svakom klijentu je dodijeljen sertifikovani računovođa koji poznaje specifičnosti vaše djelatnosti - od ugostiteljstva i turizma do građevinarstva, trgovine i IT sektora. Preuzimamo kompletnu komunikaciju sa Poreskom upravom, opštinskim organima i bankama, uz garantovanu tačnost i povjerljivost podataka.",
       ],
     },
     industriesSection: {
@@ -523,35 +523,35 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
         {
           title: "Restorani i kafići",
           description:
-            "Računovodstvo u ugostiteljstvu (HoReCa), fiskalizacija kasa, porezi, obračun smjena i zarada osoblja.",
+            "Računovodstvo u ugostiteljstvu (HoReCa), normativi i kalkulacije, fiskalizacija kasa, sezonski radnici i obračun zarada.",
           image: "/images/industry-restaurant-v2.jpg",
           tag: "HoReCa",
         },
         {
           title: "Apartmani i turizam",
           description:
-            "Evidencija izdavanja smještaja, sezonsko poslovanje, boravišne takse i turističko izvještavanje.",
+            "Evidencija izdavanja smještaja, boravišne i turističke takse, sezonsko poslovanje i fiskalna evidencija.",
           image: "/images/industry-tourism-v3.png",
           tag: "Turizam",
         },
         {
           title: "Građevinarstvo",
           description:
-            "Praćenje građevinskih projekata, PDV evidencija, ugovori sa podizvođačima i materijalno knjigovodstvo.",
+            "Praćenje građevinskih projekata i situacija, povraćaj i odbitak PDV-a, ugovori sa podizvođačima i materijalno knjigovodstvo.",
           image: "/images/industry-construction-v2.png",
           tag: "Građevina",
         },
         {
           title: "Trgovina",
           description:
-            "Računovodstvo za maloprodaju i veleprodaju, robno-materijalno knjigovodstvo i poreske obaveze.",
+            "Maloprodaja i veleprodaja, uvoz i carinske deklaracije, robno-materijalno knjigovodstvo (kalkulacije) i PDV obaveze.",
           image: "/images/industry-retail-v3.png",
           tag: "Maloprodaja",
         },
         {
           title: "Mali i srednji biznis",
           description:
-            "Kompletna podrška za IT stručnjake, uslužne djelatnosti i međunarodne preduzetnike.",
+            "Kompletna podrška za IT kompanije, konsultantske i uslužne agencije, devizno fakturisanje i međunarodno poslovanje.",
           image: "/images/industry-business-v2.jpg",
           tag: "IT & Usluge",
         },
@@ -560,7 +560,7 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
     contactSection: {
       heading: "Pošaljite upit",
       description:
-        "Recite nam više o svom biznisu. Kontaktiraćemo vas, odgovoriti na pitanja i predložiti optimalno rješenje.",
+        "Recite nam više o svom biznisu. Kontaktiraćemo vas, pripremiti ponudu i odgovoriti na sva pitanja.",
       nameLabel: "Vaše ime",
       namePlaceholder: "Marko",
       contactLabel: "Telefon / WhatsApp / Telegram",
@@ -580,9 +580,9 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
       mainServiceTitle: "Računovodstveno praćenje",
       serviceTitlePrefix: "Upit:",
       costSubtitle:
-        "Navedite djelatnost i kontakt podatke - pripremićemo ponudu prilagođenu vašem biznisu.",
+        "Cijena zavisi od oblika poslovanja (DOO / Preduzetnik), PDV statusa i broja zaposlenih. Ostavite kontakt - pripremićemo tačnu ponudu.",
       serviceSubtitle:
-        "Ostavite kontakt podatke - javićemo vam se, odgovoriti na pitanja i predložiti rješenje.",
+        "Ostavite kontakt podatke - javićemo vam se, odgovoriti na pitanja i predložiti optimalno rješenje.",
       costSubmit: "Zatražite ponudu",
       serviceSubmit: "Pošaljite upit",
       submitting: "Slanje...",
@@ -594,15 +594,15 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
       contactPlaceholder: "+382 ... ili @username",
       serviceLabel: "Izaberite uslugu",
       generalConsultation: "Opšta konsultacija",
-      messageLabel: "Komentar ili pitanje (opciono)",
-      messagePlaceholder: "Oblik poslovanja (DOO / Preduzetnik), djelatnost, broj zaposlenih...",
+      messageLabel: "Podaci o biznisu (opciono)",
+      messagePlaceholder: "DOO ili Preduzetnik, PDV obveznik da/ne, djelatnost, broj zaposlenih...",
       successTitle: "Upit je uspješno poslat",
       successText:
         "Kontaktiraćemo vas uskoro. Možete nam pisati i direktno putem aplikacija:",
       defaultError: "Greška pri slanju. Molimo pišite nam putem WhatsApp-a.",
     },
     footer: {
-      location: "Ulcinj - Ulqin, Crna Gora",
+      location: "Bulevar Majke Tereze BB, Ulcinj, Crna Gora",
       rights: "Sva prava zadržana.",
     },
     contacts: {
@@ -665,42 +665,42 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
     servicesSection: {
       heading: "Shërbimet tona",
       mainCta: "Diskutoni bashkëpunimin",
-      mainImageAlt: "Dokumente kontabiliteti dhe mjete pune në sfond të errët",
+      mainImageAlt: "Tavolina e punës me programin e kontabilitetit dhe dokumentet",
       cardAriaSuffix: "diskutoni shërbimin",
       items: [
         {
           id: "accounting",
           title: "Shërbime kontabiliteti",
           description:
-            "Mbajtja e librave kontabël, llogaritja e tatimeve dhe pagave, dorëzimi i pasqyrave dhe mbështetje e vazhdueshme.",
+            "Mbajtja e plotë e librave për DOO dhe afaristë (Preduzetnik): deklaratat mujore të TVSH-së (PDV), llogaritja e pagave (IOPPD), regjistrimi i punëtorëve në CROO, eFiskalizimi dhe bilanci vjetor (Završni račun).",
           icon: "FileSpreadsheet",
         },
         {
           id: "registration",
           title: "Regjistrimi i biznesit",
           description:
-            "Përgatitja e dokumentacionit të plotë për hapjen e kompanisë (DOO) ose afaristit individual (Preduzetnik) në Mal të Zi.",
+            "Përgatitja e dokumentacionit për hapjen e kompanisë (DOO) ose afaristit individual në CRPS, regjistrimi në TVSH (PDV), lidhja me eFiskalizimin dhe asistenca për hapjen e llogarisë bankare.",
           icon: "Briefcase",
         },
         {
           id: "consulting",
           title: "Këshillim tatimor",
           description:
-            "Sqarimi i kërkesave tatimore, analiza e kontratave dhe zgjidhje optimale ligjore për ngarkesën tatimore.",
+            "Analiza e ngarkesës tatimore para fillimit të aktivitetit, normat e TVSH-së (21% / 7% / 0%), tatimi në fitim dhe dividendë, shqyrtimi i kontratave dhe optimizimi ligjor.",
           icon: "Percent",
         },
         {
           id: "recovery",
           title: "Rikthimi dhe rregullimi i evidencës",
           description:
-            "Kontroll, korrigjim i gabimeve dhe rikonstruksion i plotë i të dhënave kontabël për periudhat e kaluara.",
+            "Rakordimi i kartelave me Administratën Tatimore (Poreska uprava), kontrolli i periudhave të kaluara, korrigjimi i deklaratave IOPPD dhe PDV dhe rikonstruksioni i librave.",
           icon: "FileText",
         },
         {
           id: "additional",
-          title: "Shërbime shtesë biznesi",
+          title: "Mbështetje biznesi dhe leje",
           description:
-            "Konsulencë për zhvillimin e biznesit, komunikim me institucionet shtetërore, bankat dhe pajisja me leje pune.",
+            "Përgatitja e dokumenteve për leje qëndrimi dhe pune (Boravak), regjistrimi i objekteve në komunë dhe organizatën turistike, pajisja me licenca dhe përfaqësimi para institucioneve.",
           icon: "MessageSquareMore",
         },
       ],
@@ -712,33 +712,33 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
           number: "01",
           title: "Ju dorëzoni dokumentet",
           items: [
-            "Faturat dhe kontratat",
+            "Faturat hyrëse dhe dalëse",
             "Pasqyrat bankare",
-            "Kuponët fiskalë dhe faturat",
-            "Të dhënat për pagat",
-            "Dokumente të tjera sipas kërkesës",
+            "Kuponët fiskalë dhe kontratat",
+            "Të dhënat për punonjësit dhe pagat",
+            "Fizikisht në zyrë ose online",
           ],
         },
         {
           number: "02",
           title: "Ne mbajmë kontabilitetin",
           items: [
-            "Regjistrojmë të gjitha transaksionet financiare",
-            "Llogarisim tatimet dhe pagat e punonjësve",
-            "Dorëzojmë deklaratat dhe raportet ligjore",
+            "Regjistrojmë çdo transaksion në librin kryesor",
+            "Dorëzojmë deklaratat mujore PDV dhe IOPPD",
+            "Monitorojmë funksionimin e eFiskalizimit",
             "Komunikojmë me Administratën Tatimore",
-            "Ju këshillojmë shpejt për çdo çështje ditore",
+            "Ju njoftojmë me kohë për afatet e pagesave",
           ],
         },
         {
           number: "03",
-          title: "Ju merrni rezultatin",
+          title: "Ju punoni të qetë",
           items: [
-            "Raportim i rregullt dhe pa vonesa",
-            "Qartësi e plotë mbi detyrimet tatimore",
-            "Raporte financiare të qarta dhe të kuptueshme",
-            "Rekomandime për optimizimin e shpenzimeve",
-            "Mbështetje dhe siguri në çdo situatë",
+            "Deklarim i saktë dhe në kohë pa gjoba",
+            "Qartësi e plotë mbi detyrimet e TVSH-së dhe tatimeve",
+            "Bilanci vjetor (Završni račun) i përgatitur me rregull",
+            "Dokumentacion i rregullt për punonjësit",
+            "Mbështetje e drejtpërdrejtë nga kontabilisti juaj",
           ],
         },
       ],
@@ -747,8 +747,8 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
       title: "Partneri juaj i besueshëm në Mal të Zi",
       photoAlt: "Ambienti i zyrës Smart Finance në Ulqin",
       paragraphs: [
-        "SMART FINANCE është kompani kontabiliteti në Ulqin me 7 vite përvojë dhe një ekip prej 7 kontabilistësh të certifikuar. Ne mbështesim kompani të reja dhe ekzistuese (DOO) si dhe afaristë individualë (Preduzetnik), duke punuar me sipërmarrës vendas dhe investitorë të huaj në Mal të Zi.",
-        "Marrim përsipër fiskalizimin, raportimin elektronik, llogaritjen e TVSH-së (PDV), tatimeve, pagave dhe kontributeve. I shpjegojmë rregullat ligjore qartë në gjuhën shqipe, malazeze dhe angleze, duke garantuar konfidencialitet të plotë të të dhënave.",
+        "SMART FINANCE është kompani profesionale kontabiliteti me zyrë në qendër të Ulqinit (Bulevar Majke Tereze BB). Ne mbështesim kompani të reja dhe ekzistuese (DOO) si dhe afaristë individualë (Preduzetnik), duke bashkëpunuar me biznese vendase dhe investitorë të huaj në Ulqin dhe në të gjithë Malin e Zi.",
+        "Çdo klienti i caktohet një kontabilist i certifikuar që njeh specifikat e sektorit tuaj - nga hotileria dhe turizmi sezonal deri te ndërtimtaria, tregtia dhe IT. Ne marrim përsipër të gjithë komunikimin me Administratën Tatimore (Poreska uprava), komunën dhe bankat, me saktësi dhe konfidencialitet të plotë.",
       ],
     },
     industriesSection: {
@@ -757,35 +757,35 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
         {
           title: "Restorante dhe kafene",
           description:
-            "Kontabilitet në sektorin HoReCa, fiskalizimi i arkave, tatimet, llogaritja e turneve dhe pagave të stafit.",
+            "Kontabilitet në sektorin HoReCa, kalkulime dhe normativa, fiskalizimi i arkave, stafi sezonal dhe llogaritja e pagave.",
           image: "/images/industry-restaurant-v2.jpg",
           tag: "HoReCa",
         },
         {
           title: "Apartamente dhe turizëm",
           description:
-            "Evidenca e qiradhënies, specifikat sezonale të turizmit, taksat e qëndrimit dhe raportimi turistik.",
+            "Evidenca e qiradhënies turistike, taksa e qëndrimit (Boravišna taksa), specifikat sezonale dhe raportimi fiskal.",
           image: "/images/industry-tourism-v3.png",
           tag: "Turizëm",
         },
         {
           title: "Ndërtimtari",
           description:
-            "Evidenca e projekteve të ndërtimit, TVSH (PDV), kontratat e nënkontraktorëve dhe kontabiliteti material.",
+            "Evidenca e projekteve të ndërtimit, rimbursimi dhe kreditimi i TVSH-së (PDV), kontratat e nënkontraktorëve dhe kontabiliteti material.",
           image: "/images/industry-construction-v2.png",
           tag: "Ndërtim",
         },
         {
           title: "Tregti",
           description:
-            "Kontabiliteti për dyqane me pakicë dhe shumicë, evidenca e magazinës dhe detyrimet tatimore.",
+            "Tregti me pakicë dhe shumicë, import dhe deklarata doganore, evidenca e magazinës (Kalkulacije) dhe detyrimet e TVSH-së.",
           image: "/images/industry-retail-v3.png",
           tag: "Tregti",
         },
         {
           title: "Biznesi i vogël dhe i mesëm",
           description:
-            "Mbështetje gjithëpërfshirëse për profesionistë të IT-së, kompani shërbimesh dhe sipërmarrës ndërkombëtarë.",
+            "Mbështetje e plotë për kompani të IT-së, agjenci konsulence dhe shërbimesh, faturim ndërkombëtar dhe sipërmarrës të huaj.",
           image: "/images/industry-business-v2.jpg",
           tag: "IT & Shërbime",
         },
@@ -794,7 +794,7 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
     contactSection: {
       heading: "Dërgoni kërkesë",
       description:
-        "Na tregoni për biznesin tuaj. Do t'ju kontaktojmë, do t'ju përgjigjemi pyetjeve dhe do t'ju ofrojmë zgjidhjen e duhur.",
+        "Na tregoni për biznesin tuaj. Do t'ju kontaktojmë, do të përgatisim ofertën dhe do t'ju përgjigjemi çdo pyetjeje.",
       nameLabel: "Emri juaj",
       namePlaceholder: "Arben",
       contactLabel: "Telefoni / WhatsApp / Telegram",
@@ -814,7 +814,7 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
       mainServiceTitle: "Diskutoni shërbimin e kontabilitetit",
       serviceTitlePrefix: "Kërkesë:",
       costSubtitle:
-        "Tregoni sektorin e biznesit dhe kontaktin - ne do të përgatisim ofertën për ju.",
+        "Çmimi varet nga forma ligjore (DOO / Preduzetnik), statusi i TVSH-së (PDV) dhe numri i punonjësve. Lini kontaktin për ofertë të saktë.",
       serviceSubtitle:
         "Lini kontaktet tuaja - do t'ju kontaktojmë, do t'ju përgjigjemi pyetjeve dhe do të ofrojmë zgjidhje.",
       costSubmit: "Merrni ofertën e çmimit",
@@ -828,15 +828,15 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
       contactPlaceholder: "+382 ... ose @username",
       serviceLabel: "Shërbimi që ju intereson",
       generalConsultation: "Konsultim i përgjithshëm",
-      messageLabel: "Koment ose pyetje (opsionale)",
-      messagePlaceholder: "Forma e biznesit (DOO / Preduzetnik), sektori i aktivitetit...",
+      messageLabel: "Të dhënat e biznesit (opsionale)",
+      messagePlaceholder: "DOO ose Preduzetnik, me TVSH (PDV) po/jo, sektori, numri i punonjësve...",
       successTitle: "Kërkesa u dërgua me sukses",
       successText:
         "Do t'ju kontaktojmë së shpejti. Gjithashtu mund të na shkruani direkt në:",
       defaultError: "Gabim gjatë dërgimit. Ju lutemi na shkruani në WhatsApp.",
     },
     footer: {
-      location: "Ulcinj - Ulqin, Mali i Zi",
+      location: "Bulevar Majke Tereze BB, Ulcinj - Ulqin, Mali i Zi",
       rights: "Të gjitha të drejtat e rezervuara.",
     },
     contacts: {
@@ -899,42 +899,42 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
     servicesSection: {
       heading: "Our Services",
       mainCta: "Discuss Accounting Support",
-      mainImageAlt: "Accounting documents and executive desk tools on a dark surface",
+      mainImageAlt: "Accountant workstation with Montenegrin accounting ERP system and folders",
       cardAriaSuffix: "inquire about service",
       items: [
         {
           id: "accounting",
           title: "Accounting & Bookkeeping",
           description:
-            "Ongoing bookkeeping, tax and payroll calculation, statutory filings, and dedicated accounting support.",
+            "Full-cycle bookkeeping for LLCs (DOO) and entrepreneurs (Preduzetnik): monthly VAT (PDV) returns, payroll & IOPPD filings, CROO employee registration, e-fiscalization, and annual financial statements (Završni račun).",
           icon: "FileSpreadsheet",
         },
         {
           id: "registration",
           title: "Company Formation",
           description:
-            "Complete document preparation for registering an LLC (DOO) or sole proprietorship (Preduzetnik) in Montenegro.",
+            "Turnkey setup for DOO or Sole Proprietorship in CRPS: articles of incorporation, VAT (PDV) registration, eFiskalizacija setup, and corporate bank account assistance in Montenegro.",
           icon: "Briefcase",
         },
         {
           id: "consulting",
           title: "Tax Advisory",
           description:
-            "Clear guidance on Montenegrin tax regulations, contract review, and compliant tax optimization strategies.",
+            "Pre-launch tax modeling, guidance on Montenegrin VAT rates (21% / 7% / 0%), corporate profit & dividend tax, contract review, and compliant tax optimization.",
           icon: "Percent",
         },
         {
           id: "recovery",
           title: "Accounting Recovery",
           description:
-            "Audit, error correction, and full reconstruction of accounting records for prior reporting periods.",
+            "Tax card reconciliation with Poreska uprava, prior-period audits, correction of IOPPD and VAT returns, ledger reconstruction, and overdue statutory filings.",
           icon: "FileText",
         },
         {
           id: "additional",
-          title: "Business Support Services",
+          title: "Business & Residency Support",
           description:
-            "Ongoing business consulting, representation before tax authorities, banking assistance, and licensing.",
+            "Document preparation for residence & work permits (Boravak), municipal and tourist board registrations, business licensing, and representation before tax authorities.",
           icon: "MessageSquareMore",
         },
       ],
@@ -944,35 +944,35 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
       steps: [
         {
           number: "01",
-          title: "You Provide Documents",
+          title: "You Provide Source Docs",
           items: [
-            "Invoices and contracts",
-            "Bank statements",
-            "Fiscal receipts and bills",
-            "Payroll records",
-            "Additional documents on request",
+            "Incoming and outgoing invoices",
+            "Monthly bank statements",
+            "Fiscal receipts and contracts",
+            "Employee & payroll records",
+            "In person at our office or digitally",
           ],
         },
         {
           number: "02",
-          title: "We Handle the Books",
+          title: "We Handle Books & Taxes",
           items: [
-            "Record all financial transactions",
-            "Calculate taxes and employee payroll",
-            "Submit statutory tax and financial filings",
-            "Communicate with the Tax Administration",
-            "Provide prompt day-to-day advisory",
+            "Post all transactions to the general ledger",
+            "Prepare and file monthly VAT (PDV) & IOPPD returns",
+            "Monitor eFiskalizacija compliance",
+            "Represent you before the Tax Administration",
+            "Notify you ahead of every tax payment deadline",
           ],
         },
         {
           number: "03",
-          title: "You Get Peace of Mind",
+          title: "You Operate with Confidence",
           items: [
-            "Timely filings with zero delays",
-            "Full clarity on upcoming tax obligations",
-            "Clean, transparent financial statements",
-            "Actionable cost-optimization insights",
-            "Reliable support in every situation",
+            "Statutory filings submitted on time with zero penalties",
+            "Complete clarity on upcoming VAT and tax amounts",
+            "Accurate annual balance sheet (Završni račun)",
+            "Compliant employment contracts and HR records",
+            "Direct access to your dedicated accountant",
           ],
         },
       ],
@@ -981,8 +981,8 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
       title: "Your Trusted Partner in Montenegro",
       photoAlt: "Smart Finance consultation office interior in Ulcinj",
       paragraphs: [
-        "SMART FINANCE is a professional accounting firm based in Ulcinj with 7 years of experience and a team of 7 certified accountants. We support both newly established and operating companies (DOO) as well as sole proprietors (Preduzetnik), working with local businesses and international founders across Montenegro.",
-        "We take care of fiscalization, e-reporting, VAT (PDV), corporate tax, payroll, and pension fund contributions. We explain Montenegrin regulations in plain language across Montenegrin, Albanian, and English while guaranteeing strict confidentiality.",
+        "SMART FINANCE is an established accounting firm with a permanent office in central Ulcinj (Bulevar Majke Tereze BB). We support both newly formed and operating companies (DOO) as well as sole proprietors (Preduzetnik), serving local enterprises and international founders across the Montenegrin coast and nationwide.",
+        "Every client works with a dedicated certified accountant experienced in your specific sector - from hospitality and seasonal tourism to construction, retail, and IT. We handle all communications with the Tax Administration (Poreska uprava), municipal bodies, and banks with strict accuracy and confidentiality.",
       ],
     },
     industriesSection: {
@@ -991,35 +991,35 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
         {
           title: "Restaurants & Cafés",
           description:
-            "HoReCa accounting, POS fiscalization, hospitality taxes, shift scheduling, and staff payroll.",
+            "HoReCa cost accounting, F&B recipes and inventory norms, POS fiscalization, seasonal staff registration, and payroll.",
           image: "/images/industry-restaurant-v2.jpg",
           tag: "HoReCa",
         },
         {
           title: "Apartments & Tourism",
           description:
-            "Rental bookkeeping, seasonal tourism accounting, tourist taxes, and statutory compliance.",
+            "Short- and long-term rental accounting, tourist tax compliance (Boravišna taksa), seasonal operations, and fiscal reporting.",
           image: "/images/industry-tourism-v3.png",
           tag: "Tourism & Hospitality",
         },
         {
           title: "Construction",
           description:
-            "Project cost accounting, VAT (PDV) recovery, subcontractor agreements, and inventory tracking.",
+            "Construction project accounting, VAT (PDV) credit and recovery, subcontractor agreements, and material ledger tracking.",
           image: "/images/industry-construction-v2.png",
           tag: "Development",
         },
         {
           title: "Retail & Wholesale",
           description:
-            "Bookkeeping for retail stores and wholesale distributors, inventory accounting, and tax filings.",
+            "Retail and wholesale bookkeeping, import & customs documentation, warehouse price calculations (Kalkulacije), and VAT.",
           image: "/images/industry-retail-v3.png",
           tag: "Retail",
         },
         {
           title: "Small & Medium Business",
           description:
-            "End-to-end accounting support for IT professionals, service agencies, and international entrepreneurs.",
+            "Comprehensive accounting for IT companies, consulting and service agencies, cross-border invoicing, and international founders.",
           image: "/images/industry-business-v2.jpg",
           tag: "IT & Services",
         },
@@ -1028,7 +1028,7 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
     contactSection: {
       heading: "Request a Consultation",
       description:
-        "Tell us about your business. We will get in touch, answer your questions, and propose the right solution.",
+        "Tell us about your business. We will get in touch, calculate your monthly support cost, and answer your questions.",
       nameLabel: "Your Name",
       namePlaceholder: "Alexander",
       contactLabel: "Phone / WhatsApp / Telegram",
@@ -1048,9 +1048,9 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
       mainServiceTitle: "Discuss Accounting Support",
       serviceTitlePrefix: "Inquiry:",
       costSubtitle:
-        "Share your business type and contact details - we will prepare a tailored quote.",
+        "Pricing depends on your legal form (DOO / Sole Proprietor), VAT status, and headcount. Leave your contact details for an exact quote.",
       serviceSubtitle:
-        "Leave your contact details - we will get back to you, answer your questions, and offer a solution.",
+        "Leave your contact details - we will get back to you, answer your questions, and offer a tailored solution.",
       costSubmit: "Request a Quote",
       serviceSubmit: "Send Inquiry",
       submitting: "Sending...",
@@ -1062,15 +1062,15 @@ export const TRANSLATIONS: Record<Locale, SiteTranslation> = {
       contactPlaceholder: "+382 ... or @username",
       serviceLabel: "Service of Interest",
       generalConsultation: "General Consultation",
-      messageLabel: "Comment or Question (Optional)",
-      messagePlaceholder: "Legal form (DOO / Sole Proprietor), industry, number of employees...",
+      messageLabel: "Business Details (Optional)",
+      messagePlaceholder: "DOO or Preduzetnik, VAT registered yes/no, industry, number of employees...",
       successTitle: "Inquiry Sent Successfully",
       successText:
         "We will get back to you shortly. You can also reach us directly via messenger:",
       defaultError: "Submission error. Please message us on WhatsApp.",
     },
     footer: {
-      location: "Ulcinj - Ulqin, Montenegro",
+      location: "Bulevar Majke Tereze BB, Ulcinj, Montenegro",
       rights: "All rights reserved.",
     },
     contacts: {

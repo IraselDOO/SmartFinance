@@ -85,7 +85,7 @@
 }
 
 .office-nav a:hover {
-  color: var(--office-red);
+  color: #525d64;
 }
 
 .office-header__right {
@@ -182,12 +182,13 @@
 .office-header__phone svg {
   width: 17px;
   height: 17px;
-  color: var(--office-red);
+  color: var(--office-ink);
   stroke-width: 1.75;
+  transition: color 160ms ease;
 }
 
-.office-header__phone:hover {
-  color: var(--office-red);
+.office-header__phone:hover svg {
+  color: var(--office-gold);
 }
 
 .office-button {
@@ -424,7 +425,7 @@
   .office-mobile-menu__phone svg {
     width: 18px;
     height: 18px;
-    color: var(--office-red);
+    color: var(--office-ink);
   }
 
   .office-mobile-menu .office-button {
