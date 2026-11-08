@@ -1,6 +1,6 @@
 /* Shared section frame: spacious, natural scroll rhythm below sticky header */
 .sf-section {
-  scroll-margin-top: var(--office-header-h, 76px);
+  scroll-margin-top: var(--office-header-h, 75px);
   padding-block: clamp(64px, 8vw, 108px);
 }
 
@@ -500,7 +500,7 @@
   isolation: isolate;
   overflow: hidden;
   padding-block: clamp(64px, 8vw, 100px);
-  scroll-margin-top: var(--office-header-h, 76px);
+  scroll-margin-top: var(--office-header-h, 75px);
   background: #07111a;
   color: white;
 }
