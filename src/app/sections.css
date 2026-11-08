@@ -19,7 +19,10 @@
 
 /* Integrated bottom metrics strip inside Hero */
 .sf-trust {
-  padding-block: clamp(14px, 2svh, 20px);
+  display: flex;
+  align-items: center;
+  min-height: clamp(68px, 9svh, 82px);
+  padding-block: 8px;
   border-top: 1px solid #e8e9e8;
   border-bottom: 1px solid #e8e9e8;
   background: #fff;
@@ -34,7 +37,7 @@
   align-items: center;
   gap: 14px;
   min-width: 0;
-  padding: 4px clamp(10px, 1.6vw, 24px);
+  padding: 2px clamp(8px, 1.2vw, 18px);
   color: #07111a;
   overflow-wrap: anywhere;
 }
@@ -69,13 +72,13 @@
 }
 .sf-trust__copy strong {
   color: #07111a;
-  font-size: clamp(13px, 1vw, 15.5px);
+  font-size: clamp(12px, 0.92vw, 15px);
   font-weight: 650;
   line-height: 1.2;
 }
 .sf-trust__copy span {
   color: #566169;
-  font-size: clamp(11.5px, 0.88vw, 13px);
+  font-size: clamp(11px, 0.82vw, 12.5px);
   line-height: 1.25;
 }
 
