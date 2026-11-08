@@ -448,80 +448,65 @@
   }
 
   .office-brand__symbol {
-    width: 46px;
+    width: 44px;
   }
 
   .office-brand__wordmark {
-    width: 148px;
+    width: 142px;
   }
 
   .office-header__cta-slot {
     display: none;
   }
 
-  .office-lang-switcher__btn {
-    min-width: 42px;
-    height: 30px;
-    padding: 0 6px;
-    gap: 4px;
-    font-size: 10.5px;
-  }
-
-  .office-lang-switcher__flag {
-    width: 13px;
-    height: 9px;
-  }
-
-  .office-mobile-menu__langs {
-    display: none;
-  }
-
-  .office-hero {
-    height: calc(100svh - var(--office-header-h));
-    min-height: 560px;
-  }
-
-  .office-hero__main {
-    align-items: start;
-  }
-
-  .office-hero__image {
-    object-position: 74% bottom;
-  }
-
-  .office-hero__copy::before {
-    inset: -80px -100px -80px -80px;
-  }
-
-  .office-hero__content {
-    padding-block: clamp(18px, 3svh, 36px) clamp(24px, 6svh, 80px);
-  }
-
-  .office-hero__title {
-    font-size: clamp(32px, min(9.5vw, 6.4svh), 48px);
-  }
-
-  .office-hero__accent {
-    font-size: clamp(16px, min(4.8vw, 2.8svh), 22px);
-  }
-
-  .office-hero__description {
-    font-size: clamp(13px, min(3.8vw, 2svh), 16px);
-  }
-
-  .office-hero__action {
-    gap: 14px;
-    text-align: left;
-  }
-}
-
-@media (max-width: 399px) {
   .office-header__right .office-lang-switcher {
     display: none;
   }
 
   .office-mobile-menu__langs {
     display: inline-flex;
+  }
+
+  .office-hero {
+    height: auto;
+    min-height: calc(100svh - var(--office-header-h));
+  }
+
+  .office-hero__main {
+    align-items: start;
+    min-height: 460px;
+  }
+
+  .office-hero__image {
+    height: 100%;
+    object-position: 78% bottom;
+  }
+
+  .office-hero__copy::before {
+    inset: -40px -36px -36px -40px;
+    background: radial-gradient(ellipse at 35% 38%, rgb(250 252 251 / 96%) 0%, rgb(250 252 251 / 88%) 48%, rgb(250 252 251 / 45%) 74%, transparent 94%);
+    filter: blur(12px);
+  }
+
+  .office-hero__content {
+    padding-block: 24px 150px;
+  }
+
+  .office-hero__title {
+    font-size: clamp(32px, 8.8vw, 44px);
+  }
+
+  .office-hero__accent {
+    font-size: clamp(15.5px, 4.4vw, 20px);
+  }
+
+  .office-hero__description {
+    font-size: clamp(14px, 3.8vw, 16px);
+  }
+
+  .office-hero__action {
+    gap: 14px;
+    text-align: left;
   }
 }
 
